@@ -1,0 +1,139 @@
+body {
+  font-family: "Helvetica";
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* -- Header section -- */
+
+.header {
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  display: block;
+  top: 0px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  height: 50px;
+  float: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.navigation {
+  float: right;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.navigation a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+
+.navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  text-decoration: underline;
+  color: seashell;
+}
+
+/* -- Mission section -- */
+
+.mission-container {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  max-width: 1200px;
+  margin: 40px auto;
+  display: flex;
+}
+
+.text-over {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+/* Tea of the Month section */
+
+.trend-container {
+  display: inline-flex;
+  max-width: 1000px;
+  height: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.trend img { 
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Locations section */
+
+.location-banner {
+  background-image: url("Images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  max-width: 1200px;
+  padding-top: 80px;
+  margin: 50px auto auto auto;
+}
+
+.location-header {
+  font-size: 30px;
+}
+
+.box-container {
+  max-width: 1050px;
+  margin: 15px auto auto auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  background-color: black;
+  width: 300px;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: auto;
+  padding: 2rem 1rem;
+  opacity: 0.8;
+}
+
+/* contact section */
+
+.contact {
+  height 200px;
+  width: auto;
+  margin-top: 2px;
+}
+
+.name {
+  font-size: 30px;
+}
+
+/* footer */
+
+.footer {
+  margin-left: 20px;
+  text-align: left;
+}
