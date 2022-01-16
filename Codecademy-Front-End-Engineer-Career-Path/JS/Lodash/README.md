@@ -6,11 +6,10 @@
 
 #### If you wanted to use this library in your own projects right now, you could load it, using a Content Delivery Network (CDN) link, in the <head> of your project’s index.html file , like so:
 
-<head>
-  <script src='https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js'></script>
-  <!-- Make sure that you load lodash before the file that uses it. -->
-  <script src='file-that-uses-lodash.js'></script>
-</head>
+![image](https://user-images.githubusercontent.com/86042155/149651599-91171822-b957-4581-b3e5-ea0db19de29e.png)
+
+</br>
+ 
 However, implementing the methods from lodash on your own is an invaluable exercise in problem-solving and a great way to understand how the methods work! We’ve selected ten methods for you to implement and, in implementing each method, you will follow these four steps:
 
 #### Specify the functionality of the method we are implementing
